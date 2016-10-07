@@ -1,0 +1,58 @@
+Developer                   |    Submitted date     |		Score
+----------------------------|-----------------------|-----------------------------------------------------------
+Chris Amanatidis            |      2016/09/07       |         54.02
+Chris Amanatidis            |      2016/09/01       |         53.35
+Iasonas Gavriilidis         |      2016/09/11       |         53.20
+Chris Amanatidis            |      2016/08/30       |         51.55
+Iasonas Gavriilidis         |      2016/09/07       |         50.81
+Chris Amanatidis            |      2016/08/25       |         50.75
+Iasonas Gavriilidis         |      2016/09/05       |         49.66
+Ioannis Karadimas           |      2016/09/11       |         48.96
+Laertis Pappas              |      2016/09/11       |         48.44
+Laertis Pappas              |      2016/09/02       |         47.91
+Kyriakos Kentzoglanakis     |      2016/09/11       |         47.73
+Laertis Pappas              |      2016/09/02       |         47.59
+Chris Amanatidis            |      2016/08/25       |         47.58
+Ioannis Karadimas           |      2016/08/30       |         47.28
+Alexander Savvas            |      2016/09/05       |         46.72
+Kyriakos Kentzoglanakis     |      2016/08/22       |         46.66
+Alexander Savvas            |      2016/08/31       |         43.45
+Chris Amanatidis            |      2016/08/18       |         43.34
+Iasonas Gavriilidis         |      2016/09/02       |         42.73
+Panagiotis Trapatsas        |      2016/08/30       |         42.38
+Panagiotis Trapatsas        |      2016/08/30       |         42.36
+Alexander Savvas            |      2016/08/30       |         41.54
+Kyriakos Kentzoglanakis     |      2016/08/22       |         37.31
+Laertis Pappas              |      2016/08/25       |         35.90
+Iasonas Gavriilidis         |      2016/08/19       |         32.09
+Ioannis Karadimas           |      2016/08/23       |         28.98
+Ioannis Karadimas           |      2016/08/25       |         26.85
+Laertis Pappas              |      2016/08/24       |         26.11
+Panagiotis Trapatsas        |      2016/08/18       |         23.27
+Laertis Pappas              |      2016/08/14       |         20.93
+Ioannis Karadimas           |      2016/08/22       |         17.66
+Alexander Savvas            |      2016/08/29       |         15.00
+Iasonas Gavriilidis         |      2016/08/19       |         14.70  
+Ioannis Karadimas           |      2016/08/12       |         13.57
+Giorgos Gkogkolis           |      2016/08/26       |         10.15
+Kyriakos Kentzoglanakis     |      2016/09/11       |         0
+Ioannis Karadimas           |      2016/09/07       |         0
+Giorgos Gkogkolis           |      2016/09/07       |         0
+Iasonas Gavriilidis         |      2016/08/31       |         0
+Laertis Pappas              |      2016/08/29       |         0
+Ioannis Karadimas           |      2016/08/26       |         0
+Kyriakos Kentzoglanakis     |      2016/08/26       |         0
+Laertis Pappas              |      2016/08/24       |         0
+Ioannis Karadimas           |      2016/08/11       |         0
+Iasonas Gavriilidis         |      2016/08/16       |         0
+Iasonas Gavriilidis         |      2016/08/19       |         0
+Iasonas Gavriilidis         |      2016/08/19       |         0
+                            |                       |
+                            |                       |
+                            |                       |
+                            |                       |
+                            |                       |
+                            |                       |
+                            |                       |
+                            |                       |
+                            |                       |

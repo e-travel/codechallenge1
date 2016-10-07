@@ -1,0 +1,94 @@
+10/8/2016
+
+ _     _       ___          _          ___ _           _ _                       
+/ |___| |_    / __\___   __| | ___    / __\ |__   __ _| | | ___ _ __   __ _  ___ 
+| / __| __|  / /  / _ \ / _` |/ _ \  / /  | '_ \ / _` | | |/ _ \ '_ \ / _` |/ _ \
+| \__ \ |_  / /__| (_) | (_| |  __/ / /___| | | | (_| | | |  __/ | | | (_| |  __/
+|_|___/\__| \____/\___/ \__,_|\___| \____/|_| |_|\__,_|_|_|\___|_| |_|\__, |\___|
+                                                                      |___/      
+
+.:: The problem ::.
+
+We want to implement a dictionary of words that can work with very little memory. The dictionary will do only
+two things:
+
+	- Load a word to the dictionary.
+	- Check if a word is present in the dictionary or not.
+	
+Constraints
+========================
+
+a. The sole data structure that can be used to save/retrieve data is a bit array with a total size of 2 megabytes.
+b. The dictionary should be able to process at least 100 thousand words of text within the above constraint.
+c. When the dictionary checks if a word is present it will return False or True. If it returns False, then
+   the word should absolutely not be in the dictionary. If it returns True, then the word is most likely in
+   the dictionary but we can allow for false-positives. We want to have a false-positive ratio below 0.01%.
+   
+More details
+========================
+
+Submissions should use the IBitStorage and IDictionaryChecker interfaces (present in this repo). Implementations
+should utilize an instance of IBitStorage as the sole storage they can use. You can see DummyDictionary.cs for
+a simple (although lame) sample of what you should create. Initialize() is called for each word will be loaded
+in the dictionary (therefore it will be called many times) and IsWordPresent() is used to check if a word is in 
+the dictionary or not.
+
+Rules for submissions
+========================
+
+1. Unlike Innovation Days, you should *not* take time during regular working hours to devote to the contest.
+2. Code of submissions is strictly private until the contest ends so do not share. However, the leaderboard 
+   with the rankings will be updated during the contest and all submissions will be made public after
+   the contest ends.
+3. Email your submissions directly to n.bitounis@pamediakopes.gr. Do *not* share otherwise or commit publicly!
+4. You can collaborate as you see fit. For maximum fun, I would advise that you take the challenge on either 
+   alone or with one friend.
+5. You should not use any memory or form of storage other than the instance of IBitStorage passed to you.
+6. You can use whatever method you require in order to solve the problem as long as you use C# - therefore
+   you can utilize Visual Studio, Mono with Vim, .Net Core with Emacs or whatever works for you.
+7. You should provide all the code needed for your submission and use only whatever C# provides in its own
+   libraries.
+8. You can submit more than once.
+9. Deadline for submissions is September 11, 2016.
+
+Clarifications
+========================
+
+1. You should *not* provide a class that implements IBitStorage. If you need a sample to use for testing,
+   please use the BitStorage class found in the DictionaryPuzzle project.
+
+Ranking
+========================
+
+Your submission will be ranked as follows:
+
+	- If it throws exceptions, you get a score of zero.
+	- If it works but you get a false-positive rate above 0.01%, you get a score of zero.
+	- Otherwise, your score is the following:
+	
+			(0.01% - your own false-positive rate) x 1000 + 
+					(milliseconds of the baseline implementation / milliseconds of your own implementation) x 10
+			
+	  Scoring example: Assuming a baseline implementation of the dictionary that takes 2 seconds to check for 
+	  a word and a submission that takes 900 milliseonds to check for a word and has a false-positive rate of
+	  0.001%, the score is:
+	  
+			(0.01-0.001)x1000 + (2000/900)x10 = 9 + 22.2 = 31.2
+
+The more your score, the better your submission is. The leaderboard found in the repository will be
+kept updated with submission scores. The submission with the best score, wins. Once the challenge deadline lapses,
+all submissions will be made public along with the ranking code.
+
+If asked, a single clue will be privately provided to help you with the problem. This costs 10 points off
+your final score.
+
+Prize
+========================
+
+The individual(s) or pair(s) with the best submission win. The winner(s) get:
+
+	- Eternal fame and mention in the Winners contest log.
+	- A T-shirt that will be custom to their own body size and personality (surprise).
+	
+Have fun,
+Nick
